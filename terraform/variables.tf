@@ -1,9 +1,9 @@
-variable "subscription_display_name" {
-  description = "The display name of the new Azure subscription."
+variable "billing_scope_id" {
+  description = "The billing scope ID used to create the subscription (Enterprise Agreementなどで必要)"
   type        = string
 }
 
-variable "billing_scope_id" {
-  description = "The billing scope ID used when creating the subscription."
+variable "subscription_display_name" {
+  description = "The display name for the new Azure subscription"
   type        = string
 }
